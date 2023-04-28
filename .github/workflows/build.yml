@@ -19,7 +19,7 @@ jobs:
           run: ls -l
         
         - name: build app
-          run: dotnet build
+          run: cd NON_GRADED_WORKSHOP_TicTacToe && dotnet build 
         
         - name: list files after biild
           run: ls -lR "NON_GRADED_WORKSHOP_JAVASCRIPT/bin"
