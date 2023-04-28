@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cherwah/git_repos/NET3/Workshops/TicTacToe/TicTacToe.csproj": {}
+    "/Users/gabrielmarini/GDip SA/myrepositorylocal/TicTacToe/TicTacToe.csproj": {}
   },
   "projects": {
-    "/Users/cherwah/git_repos/NET3/Workshops/TicTacToe/TicTacToe.csproj": {
+    "/Users/gabrielmarini/GDip SA/myrepositorylocal/TicTacToe/TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cherwah/git_repos/NET3/Workshops/TicTacToe/TicTacToe.csproj",
+        "projectUniqueName": "/Users/gabrielmarini/GDip SA/myrepositorylocal/TicTacToe/TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "/Users/cherwah/git_repos/NET3/Workshops/TicTacToe/TicTacToe.csproj",
-        "packagesPath": "/Users/cherwah/.nuget/packages/",
-        "outputPath": "/Users/cherwah/git_repos/NET3/Workshops/TicTacToe/obj/",
+        "projectPath": "/Users/gabrielmarini/GDip SA/myrepositorylocal/TicTacToe/TicTacToe.csproj",
+        "packagesPath": "/Users/gabrielmarini/.nuget/packages/",
+        "outputPath": "/Users/gabrielmarini/GDip SA/myrepositorylocal/TicTacToe/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cherwah/.nuget/NuGet/NuGet.Config"
+          "/Users/gabrielmarini/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
