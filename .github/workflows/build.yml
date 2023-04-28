@@ -22,4 +22,4 @@ jobs:
           run: dotnet build
         
         - name: list files after biild
-          run: ls -lR NON_GRADED_WORKSHOP/bin
+          run: ls -lR "NON_GRADED_WORKSHOP_JAVASCRIPT/bin"
