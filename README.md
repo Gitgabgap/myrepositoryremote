@@ -1,2 +1,3 @@
-# mypipeline
-my pipeline :)
+# myrepositoryremote
+my remote repository :)
+(local repository folder is called: myrepositorylocal)
