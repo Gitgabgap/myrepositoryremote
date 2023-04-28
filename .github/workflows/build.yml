@@ -16,10 +16,10 @@ jobs:
           uses: actions/checkout@v3
 
         - name: list your repo before build
-          run: ls - l
+          run: ls -l
         
         - name: build app
           run: dotnet build
         
         - name: list files after biild
-          run: ls - lR TicTacToe/bin     
+          run: ls -lR TicTacToe/bin
