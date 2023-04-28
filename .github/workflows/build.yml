@@ -8,17 +8,18 @@ jobs:
 
         steps:
         - name: setup dotnet sdk
-        - uses: actions/setup-dotnet@v3
+          uses: actions/setup-dotnet@v3
           with:
             dotnet-version: '6.0.x'
 
-        - name: 
-        - uses: actions/x`checkout@v3
+        - name: checkout
+          uses: actions/checkout@v3
+
         - name: list your repo before build
-        - run: ls - l
+          run: ls - l
         
         - name: build app
-        - run: dotnet build
+          run: dotnet build
         
         - name: list files after biild
-        - run: ls - lR TicTacToe/bin
+          run: ls - lR TicTacToe/bin     
