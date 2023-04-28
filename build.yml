@@ -14,5 +14,11 @@ jobs:
             dotnet-version: '36.0.x'
         - run: dotnet build <my project>
 
-        - name: checkout your source
-        - run: ls
+        - name: list your repo before build
+        - run: ls - l
+
+        - name: build app
+        - run: dotnet build
+        
+        - name: list files after build
+        - run: ls - lR TicTacToe/bin
